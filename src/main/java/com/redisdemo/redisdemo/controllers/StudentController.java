@@ -13,7 +13,7 @@ public class StudentController {
 
     @GetMapping("/test")
     public ResponseEntity<?> test() {
-        return ResponseEntity.ok("Hello World");
+        return ResponseEntity.ok("Hello World!!");
     }
 
 }
